@@ -1,0 +1,15 @@
+Source: libubox
+Section: devel
+Priority: optional
+Maintainer: Luka Perkov <luka.perkov@sartura.hr>
+Build-Depends: debhelper (>= 8.0.0), cmake
+Standards-Version: 3.9.4
+Homepage: http://git.openwrt.org/?p=project/libubox.git
+Vcs-Git: git://git.openwrt.org/project/libubox.git
+Vcs-Browser: http://git.openwrt.org/?p=project/libubox.git;a=summary
+
+Package: libubox
+Architecture: amd64 i386
+Depends: libjson-c-dev
+Description: OpenWrt utility library
+ A small utility library developed for OpenWrt containing a event loop, linked lists, blobmsg, stream buffer management, [...]
